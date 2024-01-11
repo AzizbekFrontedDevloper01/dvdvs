@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+.container{   
+    width: 79.2vw;
+   margin: 0 auto;
+  
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.wrapper{
+    width: 100vw;
+  
+}
+.hate {
+    display: flex;
+    gap: 35px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 41px;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+}
+.nav--btn:hover{
+    -webkit-box-shadow: 5px -1px 39px 9px orange;
+-moz-box-shadow: 5px -1px 39px 9px orange;
+box-shadow: 5px -1px 39px 9px orange;
+}
+.nav--btn{
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+}
+.nav--link:hover{
+    color: orange;
+}
+
+span{
+    color: red;
+}
+/* =================================header end============================ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++main start+++++++++++++++++++++++++++++++++++++++++++++++++ */
+.main--content h1{
+    font-size: 48.83px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+    color: black;
+}
+.main{
+    padding-top: 160px;
+}
+.knopka{
+   justify-content: flex-end;
+   width: 487px;
+}
+.ayol{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 98px;
+ padding-top: 123px;
+ margin-left: 50px;
+ 
+    
+}
+.main--content p{
+    font-size: 16px;
+    font-style: normal;
+    max-width: 555px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
+    color: black;
+    padding-top: 42px;
+}
+.main--btns{
+    margin-top: 50px;
+    display: flex;
+     gap: 30px;
+}
+.main--content{
+   max-width: 555px;
+}
+.apa{
+    border-radius: 10px;
+}
+.taba{
+    Width: 1350px;
+    position: absolute;
+    padding-top: -500px;
+    margin-left: 1250px; 
+ Height: 678.85px;
+Top: 30px;
+margin-left: 700px;
+Left: 150px; 
+   
+} 
+.main{
+   
+    padding-top: 130px;
+    background-image: url(CSmJnTefxM\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 570px -70px;
+    padding-bottom: 117px;
+    margin-left: 175px;
+    
+  
+
+}
+.main--btns button {
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(255, 166, 0, 0.282);
+    background-color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: normal;
+}
+.main--btns button:hover{
+background-color: orange;
+color: white;
+}
+/* ===============================main end================== */
+/* ++++++++++++++++++++++++++++++++++++++++++++features start++++++++++++++++++++++++++++++++++++++++++++++ */
+.h505{
+    color: #DC780B;
+    display: flex;
+    justify-content: center;
+}
+.ranglar {
+    width: 88px;
+    height: 88px;
+}
+.h303{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.yashil{
+    background-color: rgba(0, 128, 0, 0.255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qizil{
+    background-color: rgba(255, 0, 0, 0.233);
+    border-radius: 50%;
+}
+.olov{
+    background-color: rgba(255, 166, 0, 0.282);
+    border-radius: 50%;
+}
+.features__card h4{
+    margin-top: 18px;
+}
+.features__card p{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    /* font-height: 24px;  */
+}
+/* ==================================== features end ================= */
+/* ++++++++++++++++++++++++++++++++++++about us start++++++++++++++++++ */
+.ayol{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 98px;
+    padding-top: 123px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-bottom: 170px;
+}
+
+.ayol h5{
+    color: #DC780B;
+    font-family: roboto;
+    /* margin-left: 200px; */
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+.ayol h4{
+    margin-left: 200px;
+    color: #150c01;
+    font-size: 31.25px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40.625px;
+}
+.knopka{
+    Width: 488px;
+    right: 0;
+    Height: 355px;
+ flex-direction: column;
+ margin-right: 170px;
+ margin-left: 0;
+
+
+}
+.knopka p{
+    width: 500px;
+    color: #150c01;
+    font-size: 16px;
+    font-size: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+text-align: left;
+
+}
+.knopka button{
+    width: 142px;
+    height: 42px;
+    margin-top: 29px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DC780B;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.knopka button:hover{
+    -webkit-box-shadow: 5px -1px 39px 9px orange;
+    -moz-box-shadow: 5px -1px 39px 9px orange;
+    box-shadow: 5px -1px 39px 9px orange;
+}
+/* ###########################################about us end################### */
+/* ==============================menu start========================= */
+.menu__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.taomlar {
+    width: 100vw;;  
+    display: flex; 
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+   margin: 0 auto;
+   
+}
+.narx{
+    display: flex;
+    flex-direction: column;
+}
+.tuvuq{
+    display: flex;
+    flex-direction: column;
+}
+.usti{
+    color: #DC780B;
+text-align: center;
+font-family: Roboto;
+margin-bottom: 9px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 3.2px;
+text-transform: uppercase;
+}
+.pasi{
+    color: #150C01;
+font-family: Philosopher;
+font-size: 31.25px;
+margin-bottom: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 76.8% */
+}
+.lorem{
+    color: #150C01;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.lorem_01{
+    color: black;
+    padding-bottom: 50px;
+}
+.taomlar{
+    display: flex;
+    gap: 40px;
+    /*    */
+}
+.narx{
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 10px;
+}
+.yana{
+    font-family: Philosopher;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+}
+.taomlar img{
+    margin-top: 50px;
+}
+.narx h4{
+    color: #150C01;
+font-family: Philosopher;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 96% */
+}
+.salad{
+    justify-content: space-between;    
+    display: flex;
+
+}
+.narx button{
+    width: 36px;
+    height: 34px;
+    background-color: #DC780B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.lion{
+    margin-left: 80px;
+    color: #000;
+}
+.carer{
+    margin-left: 110px;
+    color: #000;
+}
+.tiger{
+    margin-left: 220px;
+    color: #000;
+}
+.pubg{
+    margin-left: 230px;
+    color: #000;
+}
+.agent{
+    margin-left: 150px;
+    color: #000;
+}
+.soqqa{
+  margin-left: 50px;
+  
+  color: black;
+}
+.lazer{
+    margin-left: 220px;
+}
+.star {
+    display: flex;
+    margin-top: -80px;
+    margin-left: 200px;
+}
+.olim{
+    background-color: #fbf1e7;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Lazizxon{
+    font-family: Philosopher;
+font-size: 31px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 5px;
+}
+.reys{
+    margin-top: 20px;
+    
+}
+.Laziz{
+    font-family: Roboto;
+font-size: 16px;
+color: orange;
+margin-top: 114px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.2em;
+text-align: left;
+}
+
+.olim{
+    position: relative;
+    height: 518px;
+    max-width: 100%;
+    justify-content: space-around;
+   
+    margin-top: 279px;
+}
+body{
+    max-width: 100%;
+}
+.olim__content p{
+    font-family: Roboto;
+font-size: 16px;
+
+display: flex;
+
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.one__drive{
+    margin-top: 39px;
+
+}
+.tag{
+    color: darkgray;
+}
+.taga {
+    background-image: url(./img/apple.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+   
+    background-position: 20px 7px;
+}
+.tagcha {
+    background-image: url(./img/play__store.png);
+    background-repeat: no-repeat;
+    background-position: 16px 7px;
+    border: none;
+    background-color: #150c0110;
+}
+.oq{
+    color: #fff;
+}
+
+.ochki{
+    color: #000;
+}
+.one__drive button{
+    
+   width: 163px;
+height: 48px;
+top: 3635px;
+align-items: center;
+left: 247px;
+border-radius: 5px;
+}
+
+.like button{
+    color: #DC780B;
+font-family: Roboto;
+margin-top: 20px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sungi h3{
+    color: #DC780B;
+text-align: center;
+margin-bottom: 12px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 3.2px;
+text-transform: uppercase;
+}
+.sungi h4{
+   
+    color: #000;
+font-family: Philosopher;
+font-size: 31.25px;
+margin-bottom: 23px;
+
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 76.8% */
+
+}
+
+.ehhee, .send{
+    border: none;
+}
+.sungi{
+    margin-top: 213px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.starttr{
+ margin-right: 110px;
+}
+.sungi p{
+    text-align: center;
+}
+.like{
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+}
+.apani__yulduzi{
+    margin-left: 700px;
+}
+
+.align{
+    margin-left: 650px;
+    margin-bottom: 25px;
+}
+.marketing__p{
+    margin-bottom: 20px;
+}
+.marketing__hh{
+    margin-top: 32px;
+}
+.footer{
+    margin: 0 auto;
+    width: 79.2vw;
+    height: 877px;
+    margin-top: 120px;
+    
+}
+.lavash{
+    margin-top: -70px;
+}
+.opasity__xira{
+    height: 448px;
+    background-color: #dc770b36;
+}
+
+.vanihoyat{
+    height: 429px;
+    display: flex;
+    margin-right: 1000px;
+    margin: 0 auto;
+    background-color: #150C01;
+}
+.footer__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 137px;
+   margin-left: 150px;
+}
+
+.footer__items img{
+    margin-bottom: 8px;
+}
+.kampaniya{
+    margin-bottom: 26px;
+}
+.have{
+    margin-bottom: 20px;
+}
+.love{
+    gap: 17px;
+}
+.hate{
+    gap: 20px;
+}
+.hate h6{
+    margin-bottom: 6px;
+}
+
+.opasity__xira h5{
+    font-family: Roboto;
+font-size: 16px;
+padding-top: 115px;
+color: #DC780B;
+margin-bottom: 15px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0.2em;
+text-align: center;
+
+}
+.opasity__xira h3{
+    font-family: Philosopher;
+font-size: 31px;
+font-weight: 700;
+margin-bottom: 46px;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.loh{
+    gap: 10px;
+    display: flex;
+   
+}
+.ehhee{
+    width: 750px;
+height: 75px;
+top: 4877px;
+left: 345px;
+border-radius: 10px;
+
+}
+.send{
+    margin-left: 594px;
+    width: 156px;
+    height: 75px;
+    background-color: #DC780B;
+    position: absolute;
+    color: #fff;
+    border-radius: 10px;
+}
+.Sohibnazar{
+    color: #000;
+}
+.opasity__xira input::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.manibosing {
+    justify-content: center;
+    display: flex;
+}
+.send:hover{
+    -webkit-box-shadow: 5px -1px 39px 9px orange;
+    -moz-box-shadow: 5px -1px 39px 9px orange;
+    box-shadow: 5px -1px 39px 9px orange;
+}
+.footer__items {
+    margin-right: -100px
+} 
+.hover__latta{
+    font-family: Philosopher;
+    font-weight: 700;
+}
+.love {
+    margin-right: 100px;
+}
+
+.footerchalar {
+    display: flex;
+    margin-left: -100px;
+}
+.affter{
+    position: relative;
+}
+.affter::before{
+    content: '<';
+    max-width: 12px;
+    height: 24px;
+    background-image: url(./img/chap__tomon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 363px;
+    top: 200px;
+}
+
+.affter::after{
+    content: '>';
+    width: 12px;
+    height: 24px;
+    background-image: url(./img/ong__tomon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 363px;
+    top: 200px;
+} 
